@@ -1,0 +1,1 @@
+echo "<input type='submit' class='button-hover-background' data-id='{$row['id']}' value='Comprar'>";

@@ -1,0 +1,22 @@
+<table class="cart-table">
+          <thead>
+            <tr>
+              <th class="table-head-item first-col"></th>
+              <th class="table-head-item second-col"></th>
+              <th class="table-head-item third-col"></th>
+            </tr>
+          </thead>
+
+          <tbody>
+         
+          </tbody>    
+
+          <tfoot>
+            <tr>
+              <td colspan="3" class="cart-total-container">
+                <strong>Total</strong>
+                <span>R$0,00</span>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
