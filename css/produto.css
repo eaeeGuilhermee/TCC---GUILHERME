@@ -1,0 +1,127 @@
+.nav-bar{
+  background-color: white;
+  display: flex;
+  height: 15pc;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  overflow: hidden;
+  transition: top 0.3s;
+}
+
+
+.voltar img{
+  height: 40px;
+  margin-left: 100%;
+}
+
+.nav-bar h1{
+  color: black;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  padding: 0px;
+  flex-direction: column;
+}
+
+.truth{
+  margin-left: 43%;
+}
+
+.nav-bar a{
+  text-decoration: none;
+}
+
+.top{
+  margin-top: 1pc;
+}
+
+
+/* Formulário */
+form {
+    max-width: 50pc;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 10px solid #cccccc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Inputs */
+  input[type="text"], input[type="email"], input[type="number"], select {
+    width: 95%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    height: 55px;
+    background-color: #194c1b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  input[type="file"] {
+    width: 40%;
+    height: 40px;
+    background-color: #0b2451;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+  }
+  
+  input[type="file"]:hover {
+    background-color: #4271c8;
+  }
+  
+  /* Select */
+  select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Erros 
+  .error {
+    color: #red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }*/
+  
+  /* Espaçamento entre os campos */
+  form > * {
+    margin-bottom: 20px;
+  }
+  
+  /* Titulo do formulário */
+  form > h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+  }
